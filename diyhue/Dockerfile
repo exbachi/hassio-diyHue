@@ -41,6 +41,7 @@ RUN mv /diyhue/BridgeEmulator/sensors/ 											./sensors/
 RUN mv /diyhue/BridgeEmulator/services/ 										./services/
 RUN mv /diyhue/BridgeEmulator/HueEmulator3.py 									./
 RUN mv /diyhue/BridgeEmulator/genCert.sh /diyhue/BridgeEmulator/openssl.conf 	./
+RUN mkdir ./config/
 
 # Copy additional local build files
 COPY rootfs ./
