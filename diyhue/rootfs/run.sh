@@ -28,6 +28,6 @@ if [ "$NO_SERVE_HTTPS" = "true" ] ; then
     python3 -u /opt/hue-emulator/HueEmulator3.py --docker --no-serve-https
 else 
     echo "Serve HTTPS"
-    sh /opt/hue-emulator/genCert.sh $MAC
+    sh /opt/hue-emulator/genCert.sh $(echo "$MAC" | sed -e 's/://g')
     python3 -u /opt/hue-emulator/HueEmulator3.py --docker
 fi
