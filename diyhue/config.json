@@ -1,7 +1,7 @@
 {
 "name": "diyHue",
 "version": "1.5.0",
-"slug": "diyhue-beta",
+"slug": "diyhue",
 "description": "Philips Hue Bridge Emulator",
 "webui": "http://[HOST]:[PORT:80]",
 "panel_icon": "mdi:home-lightbulb",
