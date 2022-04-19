@@ -3,6 +3,7 @@
 CONFIG_PATH=/data/options.json
 
 export MAC="$(bashio::config 'mac')"
+export IP="$(bashio::config 'ip')"
 export CONFIG_PATH="$(bashio::config 'config_path')"
 export DEBUG="$(bashio::config 'debug')"
 
