@@ -1,5 +1,5 @@
 {
-	"name": "MaxBec Home Assistant Add-on diyHue",
-	"url": "https://github.com/MaxBec/hassio-diyHue",
-	"maintainer": "Max Beckenbauer <max.bec92@gmail.com>"
+	"name": "Home Assistant Add-on diyHue",
+	"url": "https://github.com/exbachi/hassio-diyHue",
+	"maintainer": "Marco Sauter <marco.sauter@gmx.de>"
 }
