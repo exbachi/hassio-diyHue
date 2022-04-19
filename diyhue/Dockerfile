@@ -1,1 +1,1 @@
-FROM diyhue/core:latest
+FROM diyhue/core:beta
